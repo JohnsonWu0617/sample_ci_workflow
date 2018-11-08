@@ -1,0 +1,6 @@
+# circle.yml
+machine: # 虛擬機的環境
+  node:
+    version: 8.9.1 
+  test:
+    - npm test 
